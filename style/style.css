@@ -39,6 +39,7 @@ body {
 .card-container_img img:first-child{
   border-radius: 5%;
   width: 100%;
+  height: 100%;
 }
 
 .card-container_img img:first-child:hover {
@@ -48,7 +49,7 @@ body {
 
 .card-container_view {
   position: absolute;
-  top: 30%;
+  top: 33%;
   left: 48.5%;
   display: none;
 }
