@@ -47,7 +47,7 @@
   .card-container_view {
     position: fixed;
     z-index: 99;
-    top: 33%;
+    top: 28%;
     left: 48.5%;
     display: none;
   }
