@@ -49,10 +49,11 @@ body {
 
 .card-container_view {
   position: absolute;
-  top: 33%;
-  left: 48.5%;
+  top: 280px;
+  left: 100px;
   display: none;
 }
+  
 
 .card-container_img:hover .card-container_view {
   display: block;
@@ -126,6 +127,12 @@ body {
 .avatar-container a:hover {
   color: var(--cyan);
   cursor: pointer;
+}
+
+@media (max-width: 1450px) {
+  .card-container_view {
+  left: 47.9%;
+  }
 }
 
 @media (max-width: 1024px) {
